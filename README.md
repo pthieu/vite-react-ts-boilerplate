@@ -12,6 +12,8 @@ Simple React Boilerplate with Typescript and Material UI
 - [ ] Zustand
 - [ ] SEO/headers
 - [ ] 404 page
+- [ ] Pre-push hooks
+
 
 # Stack
 - TS
@@ -28,6 +30,21 @@ Simple React Boilerplate with Typescript and Material UI
   - `services` - services (axios, etc.)
   - `store` - store
   - `lib` - lib (utils, etc.)
+
+# VSCode
+`./vscode/settings.json` should look like this:
+```
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+}
+```
+
+## Extensions
+- No need for `Prettier` extension, use `ESLint` only
 
 # Resources
 - [Auto Format with ESLint and Prettier for React TypeScript Project](https://itnext.io/auto-format-with-eslint-and-prettier-for-react-typescript-project-6526a9d44f81)
