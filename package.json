@@ -2,6 +2,8 @@
   "name": "vite-react-ts-boilerplate",
   "private": true,
   "version": "0.0.0",
+  "author": "Phong Thieu",
+  "license": "ISC",
   "type": "module",
   "scripts": {
     "start": "vite",
